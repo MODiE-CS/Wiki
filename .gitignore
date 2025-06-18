@@ -1,5 +1,27 @@
-# 기본 무시
-*
+# OS/Editor 관련
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# 마크다운 파일만 추적
-!**/*.md
+# VSCode 설정
+.vscode/
+*.code-workspace
+
+# Node (혹시라도)
+node_modules/
+npm-debug.log*
+
+# Python (혹시라도)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# Mac 백업파일
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Git 자체 무시 폴더
+.git/
